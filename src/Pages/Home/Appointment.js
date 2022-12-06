@@ -1,6 +1,7 @@
 import React from 'react';
 import doctor from '../../assets/images/doctor.png';
 import appointment from "../../assets/images/appointment.png";
+import PrimaryButton from "./../Shared/PrimaryButton";
 
 const Appointment = () => {
      return (
@@ -15,12 +16,12 @@ const Appointment = () => {
          <div className="flex-1">
               <p className='text-cyan-400 font-bold text-2xl'>Appointment</p>
               <h1 className='text-4xl text-white'>Make an Appointment Today</h1>
-              <p className='text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              <p className='text-white py-6'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
               Dignissimos assumenda libero quas possimus. Eveniet ducimus 
               odio, obcaecati magni commodi aliquid, delectus a numquam unde 
               illo voluptatem laudantium! Culpa, delectus fugit?</p>
               
-              <button className="btn btn-primary text-white font-bold bg-gradient-to-r from-blue-500 to-cyan-500">Get Started</button>
+              <PrimaryButton>Appointment</PrimaryButton>
          </div>
  </section>
      );

@@ -4,6 +4,7 @@ import Cavity from '../../../src/assets/images/cavity.png';
 import Whitening from '../../../src/assets/images/whitening.png';
 import Service from "./Service";
 import treatment from "../../assets/images/treatment.png"
+import PrimaryButton from "./../Shared/PrimaryButton";
 
 const Services = () => {
      const services = [
@@ -55,7 +56,7 @@ const Services = () => {
       <p className="py-1 ">Provident cupiditate voluptatem et in..</p>
       <p className="py-1 "> Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
       <p className="py- "> In deleniti eaque aut repudiandae et a id nisi</p>
-      <button className="btn btn-primary text-white font-bold bg-gradient-to-r from-blue-500 to-cyan-500">Get Started</button>
+      <PrimaryButton>Get Started</PrimaryButton>
     </div>
   </div>
 </div>
