@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      
+      
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
+        
+
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {

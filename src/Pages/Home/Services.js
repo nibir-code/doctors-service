@@ -34,8 +34,8 @@ const Services = () => {
           
           <div className="my-28">
             <div className="text-center">
-            <h1 className="text-cyan-500 font-bold  text-4xl">Our Services</h1>
-            <h1 className="font-bold  text-2xl">Service We Provide</h1>
+            <h1 className="text-cyan-500 font-bold animate-pulse text-4xl">Our Services</h1>
+            <h1 className="font-bold animate-pulse text-2xl">Service We Provide</h1>
             </div>
 
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -51,8 +51,8 @@ const Services = () => {
            <div className="hero-content flex-col lg:flex-row">
     <img src={treatment} className="max-w-sm rounded-sm rounded-lg shadow-2xl " />
     <div className="py-25">
-      <h1 className="text-5xl font-bold ">Exceptional Dental </h1>
-      <h1 className="text-5xl font-bold ">Care On Your Term</h1>
+      <h1 className="text-5xl font-bold animate-ping ">Exceptional Dental </h1>
+      <h1 className="text-5xl font-bold animate-ping">Care On Your Term</h1>
       <p className="py-1 ">Provident cupiditate voluptatem et in..</p>
       <p className="py-1 "> Quaerat fugiat ut assumenda excepturi exercitationem quasi.</p>
       <p className="py- "> In deleniti eaque aut repudiandae et a id nisi</p>
