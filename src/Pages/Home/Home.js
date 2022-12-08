@@ -2,18 +2,18 @@ import React from 'react';
 import Banner from "./Banner";
 import Info from "./Info";
 import Services from "./Services";
-import Appointment from "./Appointment";
+import MakeAppointment from "./MakeAppointment";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
 const Home = () => {
      return (
-          <div>
+          <div className='px-12'>
               <Banner></Banner>
               <Info></Info>
               <Services></Services>
-              <Appointment></Appointment>
+              <MakeAppointment></MakeAppointment>
               <Testimonial></Testimonial>
               <Contact></Contact>
               <Footer></Footer>
