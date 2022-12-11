@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+
 import doctorAppointment from '../../assets/images/doctorAppointment.jpg'
 import bg2 from '../../assets/images/bg2.jpg';
 import { format } from 'date-fns';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
 
-const AppointmentBanner = () => {
+const AppointmentBanner = ({date,setDate}) => {
      
-     const[date,setDate] = useState(new Date());
+    
      return (
           <div 
           style={
